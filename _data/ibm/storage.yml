@@ -1,0 +1,49 @@
+---
+
+envrepo:
+  name: envrepo
+  link: https://github.ibm.com/alchemy-containers/armada-envs/tree/master/
+
+networkdoc:
+  name: networkdoc
+  link: https://console.bluemix.net/docs/containers/cs_security.html#firewall_outbound
+
+mountdoc:
+  name: mountdoc
+  link: https://console.bluemix.net/docs/containers/cs_apps.html#cs_apps_volumes_nonroot
+
+networkissue:
+  name: networkissue
+  link: https://1186049_contdep%40us.ibm.com:XXXXX@api.softlayer.com # pragma: whitelist secret
+
+creds:
+  name: creds
+  link: https://{SL_USER}:{API_KEY}@api.softlayer.com # pragma: whitelist secret
+
+bxname:
+  name: bluemix
+
+slname:
+  name: softlayer
+
+alchname:
+  name: alchemy
+
+commname:
+  name: slack
+
+armada-storage:
+  name: armada-storage
+  link: https://github.ibm.com/alchemy-containers/armada-storage
+  issue: https://github.ibm.com/alchemy-containers/armada-storage/issues/new
+  wiki: https://github.ibm.com/alchemy-containers/armada-storage/
+  kibana-query-links: https://github.ibm.com/alchemy-containers/armada-storage/wiki/Kibana-Query-Links
+  comm:
+    name: '#aramda-storage'
+    link: https://ibm-argonauts.slack.com/messages/C53P14PFE/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-storage'
+    link: https://ibm.pagerduty.com/escalation_policies#P5B6A9G
+  block:
+    name: '#armada-block-storage'
+    link: https://ibm-argonauts.slack.com/messages/C572CF95H

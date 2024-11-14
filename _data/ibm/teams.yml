@@ -1,0 +1,425 @@
+---
+
+alert-service:
+  name: pagerduty
+  link: https://ibm.pagerduty.com
+
+containers-sre:
+  name: containers-sre
+  link: https://github.ibm.com/alchemy-conductors/team
+  issue: https://github.ibm.com/alchemy-conductors/team/issues/new
+  comm:
+    name: 'conductors'
+    link: https://ibm-argonauts.slack.com/messages/C54H08JSK
+  escalate:
+    name: 'Alchemy - Conductors Production (24x7)'
+    link: https://ibm.pagerduty.com/escalation_policies#PZRV4HB
+
+cie-bot:
+  name: cie-bot
+  link: https://github.ibm.com/sre-bots/cie-bot
+  issue:  https://github.ibm.com/sre-bots/cie-bot/issues/new
+
+igor-bot:
+  name: igor-bot
+  link: https://github.ibm.com/sre-bots/igor-bot
+  issue: https://github.ibm.com/sre-bots/igor-bot/issues/new
+
+armada:
+  name: armada
+  link: https://github.ibm.com/alchemy-containers/armada
+  architecture: https://github.ibm.com/alchemy-containers/armada//blob/master/architecture/architecture.md
+  escalation: https://pages.github.ibm.com/alchemy-conductors/documentation-pages/docs/runbooks/armada/armada_pagerduty_escalation_policies.html
+
+armada-deploy:
+  name: armada-deploy
+  link: https://github.ibm.com/alchemy-containers/armada-deploy
+  issues: https://github.ibm.com/alchemy-containers/armada-deploy/issues
+  issue: https://github.ibm.com/alchemy-containers/armada-deploy/issues/new?assignees=&labels=pagerduty&template=pager-duty-issue.md&title=
+  wiki: https://github.ibm.com/alchemy-containers/armada-deploy/
+  kibana-query-links: https://github.ibm.com/alchemy-containers/armada-deploy/wiki/Kibana-Query-Links
+  comm:
+    name: '#armada-deploy'
+    link: https://ibm-argonauts.slack.com/messages/C54G8PWUF/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-deploy'
+    link: https://ibm.pagerduty.com/escalation_policies#PT2ZIIQ
+  tools:
+    link: https://github.ibm.com/alchemy-containers/armada-ansible/blob/master/kub0/roles/armada-tools/files
+
+armada-update:
+  name: armada-update
+  link: https://github.ibm.com/alchemy-containers/armada-update
+  issues: https://github.ibm.com/alchemy-containers/armada-update/issues
+  issue: https://github.ibm.com/alchemy-containers/armada-update/issues/new
+  wiki: https://github.ibm.com/alchemy-containers/armada-update/wiki/Architecture-1.0
+  comm:
+    name: '#armada-update'
+    link: https://ibm.enterprise.slack.com/archives/C6WTRUSCB/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-deploy'
+    link: https://ibm.pagerduty.com/escalation_policies#PT2ZIIQ
+
+armada-ballast:
+  name: armada-ballast
+  link: https://github.ibm.com/alchemy-containers/armada-ballast
+  issue: https://github.ibm.com/alchemy-containers/armada-ballast/issues/new
+  wiki: https://github.ibm.com/alchemy-containers/armada-ballast/wiki
+  comm:
+    name: '#armada-ballast'
+    link: https://ibm-argonauts.slack.com/archives/C01BEND7ERK
+  escalate:
+    name: 'Alchemy - Containers Tribe - Ballast'
+    link: https://ibm.pagerduty.com/escalation_policies#PBO2O7F
+
+armada-carrier:
+  name: armada-carrier
+  link: https://github.ibm.com/alchemy-containers/armada-carrier
+  test-filesystem-sh: https://github.ibm.com/alchemy-containers/armada-ansible/blob/master/tools/scripts/test-filesystem.sh
+  comm:
+    name: '#armada-carrier'
+    link: https://ibm-argonauts.slack.com/archives/C01C3MHNLKT
+  escalate:
+    name: 'Alchemy - Containers Tribe - Carrier'
+    link: https://ibm.pagerduty.com/escalation_policies#PDJ7N4P
+
+armada-envs:
+  name: armada-envs
+  link: https://github.ibm.com/alchemy-containers/armada-envs
+  issue: https://github.ibm.com/alchemy-containers/armada-envs/issues/new
+
+netint:
+  name: netint
+  issue: https://github.ibm.com/alchemy-netint/firewall-requests/issues/new
+
+conductors:
+  name: conductors
+  link: https://github.ibm.com/alchemy-conductors/team
+  issue: https://github.ibm.com/alchemy-conductors/team/issues/new
+
+sensu-uptime-deploy:
+  name: sensu-uptime-deploy
+  link: https://github.ibm.com/alchemy-conductors/sensu-uptime-deploy
+  issue: https://github.ibm.com/alchemy-conductors/sensu-uptime-deploy/issues/new
+  inventory:
+    name: prod-dal09 inventory file
+    link: https://github.ibm.com/alchemy-conductors/sensu-uptime-deploy/blob/master/prod-dal09/inventory
+
+sensu-uptime:
+  name: sensu-uptime
+  link: https://github.ibm.com/alchemy-conductors/sensu-uptime
+  issue: https://github.ibm.com/alchemy-conductors/sensu-uptime/issues/new
+  pages:
+    urlcheck: https://pages.github.ibm.com/alchemy-conductors/sensu-uptime/url_check.html
+
+sensu-uptime-status:
+  comm:
+    name: '#sensu-uptime-status'
+    link: https://ibm-argonauts.slack.com/messages/C5Q14FYP8
+
+armada-ops-prom2graphite:
+  name: armada-ops-prom2graphite
+  issue: https://github.ibm.com/alchemy-containers/armada-ops-prom2graphite/issues/new
+
+armada-ops:
+  name: armada-ops
+  link: https://github.ibm.com/alchemy-containers/armada-ops
+  issue: https://github.ibm.com/alchemy-containers/armada-ops/issues/new
+  comm:
+    name: '#aramda-ops'
+    link: https://ibm-argonauts.slack.com/messages/C534XTE49/
+  escalate:
+    name: 'Armada-Ops Escalation Policy'
+    link: https://ibm.pagerduty.com/escalation_policies#PZRV4HB
+
+ibm-cloud:
+  name: ibm-cloud
+  console:  https://console.bluemix.net
+  rtc-cloudoe: https://jazzop27.rtp.raleigh.ibm.com:9443/ccm/web/projects/CloudOE
+  link: https://github.ibm.com/alchemy-dedicated/armada-dedicated
+  escalate:
+    gre-sev1: 'IBM Private Cloud GRE Sev 1'
+    link-sev1: https://ibm.pagerduty.com/escalation_policies#PZ7VLSD
+    gre-sev2: 'IBM Private Cloud GRE Sev 2/3/4'
+    link-sev2: https://ibm.pagerduty.com/escalation_policies#P5IRK2R
+    name-net-sev1: 'IBM Cloud Dedicated Networking Sev 1'
+    link-net-sev1: https://ibm.pagerduty.com/escalation_policies#PJMPQ0L
+    name-net-sev2: 'IBM Cloud Dedicated Networking Sev 2/3/4'
+    link-net-sev2: https://jazzop27.rtp.raleigh.ibm.com:9443/ccm/web/projects/CloudOE
+
+metrics-service:
+  name: metrics-service
+  display-name: Metrics Service
+  issue: https://github.ibm.com/metrics-service/MetricsE2E
+  comm:
+    name: '#metrics-service'
+    link: https://ibm-argonauts.slack.com/messages/C2TC8TL4B
+  faq: https://pages.github.ibm.com/metrics-service/troubleshooting/faq.html
+  service-link-us: https://metrics.ng.bluemix.net
+  escalate:
+    name: 'Alchemy - Metrics Service'
+    link: https://ibm.pagerduty.com/services/P7B4TJ1
+
+armada-api:
+  name: armada-api
+  link: https://github.ibm.com/alchemy-containers/armada-ironsides
+  issue: https://github.ibm.com/alchemy-containers/armada-ironsides/issues/new/choose
+  comm:
+    name: '#armada-ironsides'
+    link: https://ibm-argonauts.slack.com/messages/C53NQCME0/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-api'
+    link: https://ibm.pagerduty.com/escalation_policies#PVJ35ZC
+
+satellite-config:
+  name: satellite-config
+  link: https://github.com/razee-io/Razeedash-api/
+  issue: https://github.com/razee-io/Razeedash-api/issues/new
+  comm:
+    name: '#satellite-config'
+    link: https://ibm-argonauts.slack.com/archives/CPPG4CX3N/
+  escalate:
+    name: 'Alchemy - Containers Tribe - Razee'
+    link: https://ibm.pagerduty.com/escalation_policies#TBD
+
+satellite-link:
+  name: satellite-link
+  link: https://github.ibm.com/IBM-Cloud-Platform-Networking/Satellite-Link-Support/
+  issue: https://github.ibm.com/IBM-Cloud-Platform-Networking/Satellite-Link-Support/issues/new
+  comm:
+    name: '#satellite-link'
+    link: https://ibm-argonauts.slack.com/archives/C0149Q43UBA/
+  escalate:
+    name: 'Alchemy - Containers Tribe - Link'
+    link: https://ibm.pagerduty.com/escalation_policies#PM1GJIO
+
+satellite-location:
+  name: satellite-location
+  link: https://github.ibm.com/alchemy-containers/armada-ironsides
+  issue: https://github.ibm.com/alchemy-containers/armada-ironsides/issues/new/choose
+  comm:
+    name: '#satellite'
+    link: https://ibm-argonauts.slack.com/archives/CSEEYJ332/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-api'
+    link: https://ibm.pagerduty.com/escalation_policies#PVJ35ZC
+
+armada-kedge:
+  name: armada-kedge
+  link: https://github.ibm.com/alchemy-containers/armada-kedge
+  issue: https://github.ibm.com/alchemy-containers/armada-kedge/issues/new
+  comm:
+    name: '#armada-kedge'
+    link: https://ibm-argonauts.slack.com/messages/CMHAEQFKM
+
+armada-bootstrap:
+  name: armada-bootstrap
+  link: https://github.ibm.com/alchemy-containers/armada-bootstrap
+  issue: https://github.ibm.com/alchemy-containers/armada-bootstrap/issues/new
+  comm:
+    name: '#armada-bootstrap'
+    link: https://ibm-argonauts.slack.com/messages/C531WT4AC/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-bootstrap'
+    link: https://ibm.pagerduty.com/escalation_policies#P42TSXQ
+
+armada-hyper-protect:
+  name: armada-hyper-protect
+  link: https://github.ibm.com/alchemy-containers/armada-hyper-protect
+  issue: https://github.ibm.com/alchemy-containers/armada-hyper-protect/issues/new
+  comm:
+    name: '#armada-hyper-protect'
+    link: https://ibm-argonauts.slack.com/archives/C03B1Q8B116
+  escalate:
+    name: 'HPS-IKS with Hyper Protect-Sev1'
+    link: https://ibm.pagerduty.com/escalation_policies#PM80L3J
+
+armada-chief:
+  name: armada-chief
+  link: https://github.ibm.com/alchemy-containers/armada-chief
+  issue: https://github.ibm.com/alchemy-containers/armada-chief/issues/new
+  comm:
+    name: '#armada-chief'
+    link: https://ibm-argonauts.slack.com/messages/C57SXLM4L/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-chief'
+    link: https://ibm.pagerduty.com/escalation_policies#PA54FN4
+
+armada-cluster:
+  name: armada-cluster
+  link: https://github.ibm.com/alchemy-containers/armada-cluster
+  issue: https://github.ibm.com/alchemy-containers/armada-cluster/issues/new
+  comm:
+    name: '#armada-cluster'
+    link: https://ibm-argonauts.slack.com/messages/C54FV49RU/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-cluster'
+    link: https://ibm.pagerduty.com/escalation_policies#PQORC98
+
+armada-events:
+  name: armada-events
+  link: https://github.ibm.com/alchemy-containers/armada-events
+  issue: https://github.ibm.com/alchemy-containers/armada-events/issues/new
+  comm:
+    name: '#armada-events'
+    link:
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-events'
+    link: https://ibm.pagerduty.com/escalation_policies#P63UKD1
+
+armada-health:
+  name: armada-health
+  link: https://github.ibm.com/alchemy-containers/armada-health
+  issue: https://github.ibm.com/alchemy-containers/armada-health/issues/new
+  comm:
+    name: '#armada-health'
+    link: https://ibm-argonauts.slack.com/messages/C65FV4HM3/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-health'
+    link: https://ibm.pagerduty.com/escalation_policies#PEGP1L7
+
+armada-ingress:
+  name: armada-ingress
+  link: https://github.ibm.com/alchemy-containers/armada-frontdoor
+  issue: https://github.ibm.com/alchemy-containers/armada-frontdoor/issues/new
+  comm:
+    name: '#armada-ingress'
+    link: https://ibm-argonauts.slack.com/messages/C537U3T8T/
+  escalate:
+    name: 'Armada - containers tribe - Ingress'
+    link: https://ibm.pagerduty.com/escalation_policies#PPDGLNB
+
+armada-albcertmgr:
+  name: armada-albcertmgr
+  link: https://github.ibm.com/alchemy-containers/armada-albcertmgr-microservice
+  issue: https://github.ibm.com/alchemy-containers/armada-albcertmgr-microservice/issues/new
+
+
+armada-metrics:
+  name: armada-metrics
+  link: https://github.ibm.com/alchemy-containers/armada-metrics
+  issue: https://github.ibm.com/alchemy-containers/armada-metrics/issues/new
+  comm:
+    name: '#armada-metrics'
+    link: https://ibm-argonauts.slack.com/messages/C53P0U1FW/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-metrics'
+    link: https://ibm.pagerduty.com/escalation_policies#PPBMO4A
+
+armada-network:
+  name: armada-network
+  link: https://github.ibm.com/alchemy-containers/armada-network
+  issue: https://github.ibm.com/alchemy-containers/armada-network/issues/new
+  comm:
+    name: '#armada-network'
+    link: https://ibm-argonauts.slack.com/messages/C53P0HNDS/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-network'
+    link: https://ibm.pagerduty.com/escalation_policies#P2MK3WQ
+
+armada-ui:
+  name: armada-ui
+  link: https://github.ibm.com/alchemy-containers/armada-ui
+  issue: https://github.ibm.com/alchemy-containers/armada-ui/issues/new
+  comm:
+    name: '#armada-ui'
+    link: https://ibm-argonauts.slack.com/messages/C4SKBKEG2/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-ui'
+    link: https://ibm.pagerduty.com/escalation_policies#PIWXJC2
+
+armada-storage:
+  name: armada-storage
+  link: https://github.ibm.com/alchemy-containers/armada-storage
+  issue: https://github.ibm.com/alchemy-containers/armada-storage/issues/new
+  comm:
+    name: '#armada-storage'
+    link: https://ibm-argonauts.slack.com/messages/C53P14PFE/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-storage'
+    link: https://ibm.pagerduty.com/escalation_policies#P5B6A9G
+
+armada-docker:
+  name: armada-docker
+  link: https://github.ibm.com/alchemy-containers/armada-docker
+  issue: https://github.ibm.com/alchemy-containers/armada-docker/issues/new
+  comm:
+    name: '#armada-docker'
+    link: https://ibm-argonauts.slack.com/messages/C54G8FPEK/
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-docker'
+    link: https://ibm.pagerduty.com/escalation_policies#PV3FGMB
+
+armada-cli:
+  name: armada-cli
+  link: https://github.ibm.com/alchemy-containers/armada-cli
+  issue: https://github.ibm.com/alchemy-containers/armada-cli/issues/new
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-cli'
+    link: https://ibm.pagerduty.com/escalation_policies#PBEBHKO
+
+armada-config-pusher:
+  name: armada-config-pusher
+  link: https://github.ibm.com/alchemy-containers/armada-config-pusher
+  issue: https://github.ibm.com/alchemy-containers/armada-config-pusher/issues/new
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-config-pusher'
+    link: https://ibm.pagerduty.com/escalation_policies#PYVQI2X
+
+IAM:
+  name: IAM
+  escalate:
+    name: IAM - Access Management - Sev1
+    link: https://ibm.pagerduty.com/escalation_policies#PSTWGB2
+    name-identity: IAM Identity Service - Support Tickets - Sev1
+    link-identity: https://ibm.pagerduty.com/escalation_policies#P6SIFEU
+  alert_services:
+    sev1: https://ibm.pagerduty.com/services/P1P06WE
+    cie: https://ibm.pagerduty.com/services/P6SEE02
+
+
+armada-gates:
+  name: armada-gates
+  escalate:
+    name: 'Alchemy - Containers Tribe - armada-gates'
+    link: https://ibm.pagerduty.com/escalation_policies#PWJD2MG
+
+activity-tracker:
+  name: IBM Activity Tracker Service
+  issue: https://github.ibm.com/activity-tracker/customer-issues
+  comm:
+    name: '#activity-tracker-user'
+    link: https://ibm-cloudplatform.slack.com/messages/C02J3DQ02
+  escalate:
+    name: 'Activity Tracker Escalation Policy'
+    link: https://ibm.pagerduty.com/escalation_policies#PF8O37O
+
+carrier-istio:
+  name: 'satellite-mesh'
+  link: https://github.ibm.com/alchemy-containers/satellite-mesh
+  issue: https://github.ibm.com/alchemy-containers/satellite-mesh/issues/new
+  comm:
+    name: '#satellite-mesh'
+    link: https://ibm-argonauts.slack.com/messages/CUY5X814H/
+  escalate:
+    name: 'Carrier Isio'
+    link: https://ibm.pagerduty.com/escalation_policies#PKXCMU3
+
+compose:
+  name: compose support team
+  email: support@compose.io
+
+cloud-object-storage:
+  name: cloud-object-storage
+  comm:
+    name: '#object-storage'
+    link: https://ibm-argonauts.slack.com/messages/C0VJSU370
+
+razee:
+  name: razee
+  comm:
+    name: '#razee'
+    link: https://ibm-argonauts.slack.com/messages/C5X987RU0
+
+argonauts-dev:
+  name: Argonauts Dev

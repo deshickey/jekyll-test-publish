@@ -1,0 +1,16 @@
+---
+
+containers:
+  comm:
+    name: 'containers-cie'
+    link: https://ibm-argonauts.slack.com/messages/C4SN1JNG5
+
+cloud-functions:
+  comm:
+    name: 'whisk-cie'
+    link: https://ibm-argonauts.slack.com/messages/C8W073D3K
+
+message-hub:
+  comm:
+    name: 'mhub-cie'
+    link: https://ibm-argonauts.slack.com/messages/CAQ1A9G9E

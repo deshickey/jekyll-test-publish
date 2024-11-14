@@ -1,0 +1,10 @@
+name: test
+markdown: kramdown
+highlighter: rouge
+encoding: utf-8
+layouts_dir: doctor-ui/_layouts
+includes_dir: doctor-ui/_includes
+plugins_dir:  doctor-ui/_plugins
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]

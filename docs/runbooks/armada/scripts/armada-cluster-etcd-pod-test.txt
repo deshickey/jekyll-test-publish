@@ -1,0 +1,28 @@
+# Creates test daemonset after etcd restore from backup.
+# If all pods start, the daemonset is considered successful.
+# If pods do not start on some workers the customer will need to reboot or
+# reload / replace those workers.
+
+kubx-kubectl $CLUSTERID apply -f - <<EOF
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  labels:
+    run: pod-test
+  name: pod-test
+  namespace: ibm-system
+spec:
+  selector:
+    matchLabels:
+      run: pod-test
+  template:
+    metadata:
+      labels:
+        run: pod-test
+    spec:
+      tolerations:
+      - operator: "Exists"
+      containers:
+      - name: pod-test
+        image: us.icr.io/armada-master/pause:3.5
+EOF

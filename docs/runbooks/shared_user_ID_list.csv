@@ -1,0 +1,88 @@
+Functional ID,Serial Number,PSC,Owner,Type,"If shared, who can access?","If shared, in Thycotic?",Purpose
+eufr.2cb@ie.ibm.com,Y9EAT8,754,andres.rehmann@ie.ibm.com,,,,
+iksb.alchcond@ie.ibm.com,Y9E61H,754,andres.rehmann@ie.ibm.com,,,,
+iksb.jenkins@ie.ibm.com,Y9E6SK,754,andres.rehmann@ie.ibm.com,,,,
+fringe@us.ibm.com,C-KUPM,897,edgy@us.ibm.com,,,,
+cisoauditree@it.ibm.com,Y9DYR2,758,elisabetta.rinaldi@it.ibm.com,,,,
+scorecar@cn.ibm.com,AVN3G4,672,eugenek@ca.ibm.com,,,,
+alchcond@uk.ibm.com,Y9C81R,866,HDEVLIN@uk.ibm.com,,,,
+alchemy.access@uk.ibm.com,Y9EAG6,866,HDEVLIN@uk.ibm.com,,,,
+alchemy.netint2@uk.ibm.com,Y9CWH8,866,HDEVLIN@uk.ibm.com,,,,
+alconbld@uk.ibm.com,Y9C81S,866,HDEVLIN@uk.ibm.com,,,,
+armada.metrics@uk.ibm.com,Y9DVH4,866,HDEVLIN@uk.ibm.com,,,,
+conauto@uk.ibm.com,Y9DB5T,866,HDEVLIN@uk.ibm.com,,,,
+sre.bot@uk.ibm.com,Y9D0W5,866,HDEVLIN@uk.ibm.com,,,,
+kedge1@us.ibm.com,C-RXDE,897,kirkman@us.ibm.com,,,,
+agtstage@us.ibm.com,C-MMWC,897,Melissa Fichtinger,,,,Cale thinks used for networking automation - confirming...
+icponiks@us.ibm.com,C-NWEF,897,Melissa Fichtinger,,hybrid,,Think can be deleted as not used
+iksroch1@us.ibm.com,C-R01D,897,Melissa Fichtinger,shared,deploy/update,,Update squad e2e testing; Holds COS buckets used for logs in slack channels; account used to generate slack tokens for -deploy/-network
+iksroch2@us.ibm.com,C-RS5Y,897,Melissa Fichtinger,shared,deploy/update,,Ansible PR tester; deploy gate tests
+victbot@us.ibm.com,C-NXHG,897,Melissa Fichtinger,shared,deploy/update,,victory bot
+apncb@us.ibm.com,C-PP73,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in AP North
+apscb@us.ibm.com,C-MDU3,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in AP South
+armada@us.ibm.com,C-R4V2,897,Nathan LeViere,automation,,,"Planned for tribe-wide automation, but not currently used"
+catcb@us.ibm.com,C-SRDG,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in Toronto
+cfsdocs@us.ibm.com,C-JHLB,897,Nathan LeViere,automation,,,documentation squad build deployment automation
+contansi@us.ibm.com,C-MF20,897,Nathan LeViere,,,,
+contapi@us.ibm.com,C-MF22,897,Nathan LeViere,automation,,,Planned for ironsides e2e testing
+contbail@us.ibm.com,C-L0D9,897,Nathan LeViere,,,,Plan to be deleted
+contbm@us.ibm.com,C-MYFR,897,Nathan LeViere,automation,,,ordering bare-metal
+contbot@us.ibm.com,C-L0DA,897,Nathan LeViere,automation,,,"used by ironsides, UI,"
+contdep@us.ibm.com,C-KXSP,897,Nathan LeViere,automation,,,razee uses softlayer id automation for acceptance tests
+contui@us.ibm.com,C-MF21,897,Nathan LeViere,automation,,,used by UI for e2e tests
+euccb@us.ibm.com,C-MDU2,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in EU
+ibmcont3@us.ibm.com,C-JHLA,897,Nathan LeViere,automation,,,razee uses cloud api key for acceptance test
+ibmlab01@us.ibm.com,C-MMNW,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab02@us.ibm.com,C-MMNX,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab03@us.ibm.com,C-MMP0,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab04@us.ibm.com,C-MMP1,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab05@us.ibm.com,C-MMP2,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab06@us.ibm.com,C-MMP3,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab07@us.ibm.com,C-MMP5,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab08@us.ibm.com,C-MMP6,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab09@us.ibm.com,C-MMP7,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmlab10@us.ibm.com,C-MMP8,897,Nathan LeViere,shared,,Yes,Used for IBM labs and conference seminar setups
+ibmocp@us.ibm.com,C-RT32,897,Nathan LeViere,,,,
+icdevops@us.ibm.com,C-MF23,897,Nathan LeViere,automation,,,automation for artifactory token/key
+jpocb@us.ibm.com,C-SE9E,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in Osaka
+razee@us.ibm.com,C-RDTL,897,Nathan LeViere,,,,
+sattest@us.ibm.com,C-S1YU,897,Nathan LeViere,shared,,Yes,used for creating 3rd party cloud accounts
+uksbcb@us.ibm.com,C-MDU5,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in UK South
+usecb@us.ibm.com,C-MDU1,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in US East
+usscb@us.ibm.com,C-MDU4,897,Nathan LeViere,automation,,,verify the flavor configurations and VSI/BM orders in US South
+armada.cluster@uk.ibm.com,Y9DT97,866,Noel Rooney,automation,cluster squad and owner,,"Used for generating the tokens for various bots, the tokens are used in both stage and prod. id is shared only with owner and squad lead."
+armada.performance@uk.ibm.com,Y9CTMF,866,Noel Rooney,automation,performance squad and owner,,"Mainly used for automation, but is needed to sign onto from time to time therefore it's marked as shared. It is used to access both IBM Cloud stage and prod, although only used for testing purposes - we test in both prod & stage - but it's not used as part of the IKS Production service."
+alchdev@us.ibm.com,C-LENP,897,ralph@uk.ibm.com,,,,
+alchemy.registry.production@uk.ibm.com,Y9D1SR,866,ralph@uk.ibm.com,,,,
+anetint@uk.ibm.com,Y9CD7N,866,ralph@uk.ibm.com,,,,
+tugboat1@us.ibm.com,C-PPKT,897,ralph@uk.ibm.com,,,,
+tugboatm3@us.ibm.com,C-PTSA,897,ralph@uk.ibm.com,,,,
+acsupprt@us.ibm.com,C-R5MU,897,sharonl@us.ibm.com,,,,
+runtime@in.ibm.com,AVS6H3,744,Srihari Chokkam,automation,,,This is used for Carrier Runtime work
+alcheid2@in.ibm.com,AVJCL9,744,Sukesh Prabhakar,automation,,,"Used by the Terraform provider team for test automation, build and release activities"
+atestsqu@in.ibm.com,AVJCL1,744,Sukesh Prabhakar,shared,Container Storage,,Used by Container Storage to test VPC services
+cntbtsrp@in.ibm.com,AVSCCE,744,Sukesh Prabhakar,automation,,,Planned to be used by the India bootstrap team for test automation and CI/CD operations.
+contsto2@in.ibm.com,AVKEUB,744,Sukesh Prabhakar,automation,,,Used by Container Storage team for test automation and CI/CD related operations
+icpvdrtf@in.ibm.com,AVRY4G,744,Sukesh Prabhakar,shared,Hashicorp,,Used by the Terraform provider team to register the IBM Cloud provider and modules with Hashicorp
+Satellite Storage(mail id yet to be created),AVSRV5,744,Sukesh Prabhakar,shared,Storage vendors,,Planned to be used by Storage team and third party storage solution providers to verify & validate satellite storage templates
+alchstag@us.ibm.com,C-HHHN,897,Troy Bennett,automation,,,used by conductors to access and deploy all stage functions.
+aricprod@us.ibm.com,C-LL9L,897,Troy Bennett,automation,,,asking Jennifer and Andrea
+armadaic@us.ibm.com,C-LJ8J,897,Troy Bennett,automation,,,asking Jennifer and Andrea
+armboot@us.ibm.com,C-MKKL,897,Troy Bennett,shared,bootstrap,yes,"used by bootstrap for testing, GHE PR checking, image capturing, etc."
+cfapistg@us.ibm.com,C-PHU2,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for stage
+cloudflare-iks-apikey-ap-north@us.ibm.com,C-NMGH,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cloudflare-iks-apikey-ap-south@us.ibm.com,C-NMGJ,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cloudflare-iks-apikey-eu-central@us.ibm.com,C-NMGN,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cloudflare-iks-apikey-eu-west@us.ibm.com,C-NMGK,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cloudflare-iks-apikey-us-east@us.ibm.com,C-NMCK,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cloudflare-iks-apikey-us-south@us.ibm.com,C-NMGG,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for prod
+cntfdstg@us.ibm.com,C-S5XV,897,Troy Bennett,automation,,,used by ingress for cloudflare and akamai access for stage
+conttest@us.ibm.com,C-SM8S,897,Troy Bennett,shared,SRE,yes,orders test clusters for dev squads
+fduser@us.ibm.com,C-PFJC,897,Troy Bennett,shared,ingress,yes,ingress testing
+imgpull@us.ibm.com,C-NMGR,897,Troy Bennett,automation,,,used by conductors for immutable image
+mrhoscicd@us.ibm.com,C-RAM4,897,Troy Bennett,automation,,,used by bootstrap for upstream gate testing
+tugboat2@us.ibm.com,C-PPKU,897,Troy Bennett,,,,
+tugboat3@us.ibm.com,C-PTSA,897,Troy Bennett,,,,
+tugboatm1@us.ibm.com,C-RTUF,897,Troy Bennett,automation,,,used by bootstrap to provision clusters in satellite dev/prestage
+tugboatm2@us.ibm.com,C-RTUG,897,Troy Bennett,automation,,,used by bootstrap to provision clusters in satellite stage
+xotest@us.ibm.com,C-ST85,897,Troy Bennett,automation,,,used by ballast to test xo-commands

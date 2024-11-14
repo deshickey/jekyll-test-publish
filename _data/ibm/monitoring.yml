@@ -1,0 +1,34 @@
+---
+
+kibana:
+  name: kibana
+  link: https://logging.ibm6.ng.bluemix.net/kibana4
+
+dashboard:
+  name: dashboard
+  link: https://alchemy-dashboard.containers.cloud.ibm.com/carrier
+
+doctor:
+  name: doctor
+  link: https://doctor.bluemix.net
+
+iam:
+  name: iam
+  link: https://estado.ng.bluemix.net/internalstatus
+  cie: https://watson.service-now.com/x_ibmwc_cie_pub_app#!/dashboard
+
+logging-service:
+  name: Logging Service Executive Dashboard
+  link: https://dashboard.rtp.raleigh.ibm.com/executive-dashboard#/service/LoggingMetrics/overview
+
+metrics-service:
+  name: Metrics Service Executive Dashboard
+  link: https://dashboard.rtp.raleigh.ibm.com/executive-dashboard#/service/Metrics/overview
+
+cfs-inventory:
+  name: CFS machine inventory
+  link: https://github.ibm.com/alchemy-conductors/cfs-inventory/tree/master/inventory
+
+doctor-prometheus:
+  name: Doctor Prometheus UI
+  link: https://9.66.246.3:4568/targets

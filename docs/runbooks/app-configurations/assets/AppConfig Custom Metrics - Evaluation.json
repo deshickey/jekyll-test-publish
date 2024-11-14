@@ -1,0 +1,318 @@
+{
+    "id": 1824,
+    "teamId": 1137,
+    "userId": 1026,
+    "name": "IBM App Configuration Evaluation",
+    "panels": [
+        {
+            "id": 1,
+            "type": "basicToplist",
+            "name": "shared",
+            "description": "",
+            "nullValueDisplayText": null,
+            "basicQueries": [
+                {
+                    "enabled": true,
+                    "displayInfo": {
+                        "displayName": "",
+                        "timeSeriesDisplayNameTemplate": "",
+                        "type": "lines"
+                    },
+                    "format": {
+                        "unit": "number",
+                        "inputFormat": "1",
+                        "displayFormat": "auto",
+                        "decimals": 0,
+                        "yAxis": "auto",
+                        "nullValueDisplayMode": "nullGap"
+                    },
+                    "scope": {
+                        "expressions": [],
+                        "extendsDashboardScope": true
+                    },
+                    "compareTo": {
+                        "enabled": false,
+                        "delta": 1,
+                        "timeFormat": "day"
+                    },
+                    "metrics": [
+                        {
+                            "id": "ibm_apprapp_instance_evaluation",
+                            "timeAggregation": "avg",
+                            "groupAggregation": "sum",
+                            "descriptor": {
+                                "generator": {
+                                    "lastSeen": 1619521972267,
+                                    "firstSeen": 1615295778637,
+                                    "metricType": "gauge",
+                                    "aggregationForGroup": "avg",
+                                    "id": "ibm_apprapp_instance_evaluation",
+                                    "name": "Number of evaluation per instance",
+                                    "description": "Number of evaluation per instance",
+                                    "type": "number",
+                                    "scale": 1.0,
+                                    "groupBy": [
+                                        "ibm_scope",
+                                        "ibm_ctype",
+                                        "ibm_location",
+                                        "ibm_service_name",
+                                        "ibm_apprapp_instance_id",
+                                        "ibm_service_instance"
+                                    ],
+                                    "canCalculate": false,
+                                    "canGroupBy": false,
+                                    "aggregations": [],
+                                    "timeAggregations": [
+                                        "avg",
+                                        "timeAvg",
+                                        "sum",
+                                        "min",
+                                        "max",
+                                        "rateOfChange"
+                                    ],
+                                    "groupAggregations": [
+                                        "avg",
+                                        "sum",
+                                        "min",
+                                        "max"
+                                    ],
+                                    "timeAvg": false,
+                                    "avg": false,
+                                    "sum": false,
+                                    "min": false,
+                                    "max": false,
+                                    "concat": false,
+                                    "count": false,
+                                    "countDistinct": false,
+                                    "rateOfChange": false,
+                                    "identity": false,
+                                    "hidden": false,
+                                    "namespaces": [
+                                        "beacon"
+                                    ],
+                                    "context": [],
+                                    "category": "beacon",
+                                    "canFilter": false,
+                                    "canMonitor": false,
+                                    "scopes": [],
+                                    "experimental": false,
+                                    "deferred": false,
+                                    "label": false,
+                                    "heuristic": false,
+                                    "documented": true
+                                },
+                                "segmentations": [
+                                    "ibm_apprapp_instance_id",
+                                    "ibm_ctype",
+                                    "ibm_location",
+                                    "ibm_scope",
+                                    "ibm_service_instance",
+                                    "ibm_service_name"
+                                ],
+                                "documentId": "633--6622822042975349757",
+                                "customerId": 633,
+                                "id": "ibm_apprapp_instance_evaluation",
+                                "metricType": "gauge",
+                                "type": "number",
+                                "scale": 1.0,
+                                "name": "Number of evaluation per instance",
+                                "description": "Number of evaluation per instance",
+                                "category": "beacon",
+                                "namespaces": [
+                                    "beacon"
+                                ],
+                                "scopes": [],
+                                "timeAggregations": [
+                                    "avg",
+                                    "timeAvg",
+                                    "sum",
+                                    "min",
+                                    "max",
+                                    "rateOfChange"
+                                ],
+                                "groupAggregations": [
+                                    "avg",
+                                    "sum",
+                                    "min",
+                                    "max"
+                                ],
+                                "aggregationForGroup": "avg",
+                                "createdAt": 1619532338243,
+                                "firstSeen": 1615295778637,
+                                "lastSeen": 1619521972267,
+                                "hidden": false,
+                                "experimental": false,
+                                "deferred": false,
+                                "identity": false,
+                                "canMonitor": false,
+                                "canGroupBy": false,
+                                "canFilter": false,
+                                "generatedFrom": "com.draios.model.metrics.custom.BeaconMetric",
+                                "segment": false,
+                                "publicId": "ibm_apprapp_instance_evaluation",
+                                "documentType": "metric",
+                                "documentTimestamp": 1619532338243,
+                                "heuristic": false,
+                                "documented": true
+                            },
+                            "sorting": null
+                        }
+                    ],
+                    "segmentation": {
+                        "labels": [
+                            {
+                                "id": "ibm_apprapp_instance_id",
+                                "descriptor": {
+                                    "generator": {
+                                        "lastSeen": 1619521972305,
+                                        "firstSeen": 1615295778707,
+                                        "metricType": "tag",
+                                        "aggregationForGroup": "none",
+                                        "id": "ibm_apprapp_instance_id",
+                                        "name": "ibm_apprapp_instance_id",
+                                        "description": "ibm_apprapp_instance_id",
+                                        "type": "string",
+                                        "scale": 1.0,
+                                        "groupBy": [],
+                                        "canCalculate": false,
+                                        "canGroupBy": false,
+                                        "aggregations": [
+                                            "distinct"
+                                        ],
+                                        "timeAggregations": [
+                                            "concat",
+                                            "distinct",
+                                            "count"
+                                        ],
+                                        "groupAggregations": [
+                                            "concat",
+                                            "distinct",
+                                            "count"
+                                        ],
+                                        "timeAvg": false,
+                                        "avg": false,
+                                        "sum": false,
+                                        "min": false,
+                                        "max": false,
+                                        "concat": false,
+                                        "count": false,
+                                        "countDistinct": false,
+                                        "rateOfChange": false,
+                                        "identity": false,
+                                        "hidden": false,
+                                        "namespaces": [
+                                            "beacon"
+                                        ],
+                                        "context": [],
+                                        "category": "beacon",
+                                        "canFilter": true,
+                                        "canMonitor": false,
+                                        "scopes": [],
+                                        "experimental": false,
+                                        "deferred": false,
+                                        "label": true,
+                                        "heuristic": false,
+                                        "documented": true
+                                    },
+                                    "segmentations": [],
+                                    "documentId": "633-5433745917086216044",
+                                    "customerId": 633,
+                                    "id": "ibm_apprapp_instance_id",
+                                    "metricType": "tag",
+                                    "type": "string",
+                                    "scale": 1.0,
+                                    "name": "ibm_apprapp_instance_id",
+                                    "description": "ibm_apprapp_instance_id",
+                                    "category": "beacon",
+                                    "namespaces": [
+                                        "beacon"
+                                    ],
+                                    "scopes": [],
+                                    "timeAggregations": [
+                                        "concat",
+                                        "distinct",
+                                        "count"
+                                    ],
+                                    "groupAggregations": [
+                                        "concat",
+                                        "distinct",
+                                        "count"
+                                    ],
+                                    "aggregationForGroup": "none",
+                                    "createdAt": 1619532338301,
+                                    "firstSeen": 1615295778707,
+                                    "lastSeen": 1619521972305,
+                                    "hidden": false,
+                                    "experimental": false,
+                                    "deferred": false,
+                                    "identity": false,
+                                    "canMonitor": false,
+                                    "canGroupBy": false,
+                                    "canFilter": true,
+                                    "generatedFrom": "com.draios.model.metrics.custom.BeaconMetric",
+                                    "segment": false,
+                                    "publicId": "ibm_apprapp_instance_id",
+                                    "documentType": "metric",
+                                    "documentTimestamp": 1619532338301,
+                                    "heuristic": false,
+                                    "documented": true
+                                },
+                                "displayName": null,
+                                "sorting": null
+                            }
+                        ],
+                        "limit": 15,
+                        "direction": "desc"
+                    }
+                }
+            ]
+        }
+    ],
+    "eventDisplaySettings": {
+        "enabled": true,
+        "queryParams": {
+            "severities": [],
+            "alertStatuses": [],
+            "categories": [],
+            "filter": "",
+            "teamScope": false
+        }
+    },
+    "shared": true,
+    "public": false,
+    "version": 22,
+    "createdOn": 1615284166254,
+    "modifiedOn": 1619532192244,
+    "description": "This dashboard is for evaluations of feature and properties in an instance.",
+    "layout": [
+        {
+            "panelId": 1,
+            "x": 0,
+            "y": 0,
+            "w": 24,
+            "h": 10
+        }
+    ],
+    "sharingSettings": [
+        {
+            "role": "ROLE_RESOURCE_EDIT",
+            "member": {
+                "type": "USER_TEAMS",
+                "id": null,
+                "name": null,
+                "teamTheme": null
+            }
+        }
+    ],
+    "publicToken": "bb92cb1f3a3a470fa384eaa3c5d09017",
+    "favorite": true,
+    "schema": 3,
+    "username": "App App Rapp (aaprapp@in.ibm.com)",
+    "permissions": [
+        "dashboards.sharing",
+        "dashboards.delete",
+        "dashboards.transfer",
+        "dashboards.read",
+        "dashboards.edit"
+    ]
+}

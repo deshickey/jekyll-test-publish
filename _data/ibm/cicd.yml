@@ -1,0 +1,9 @@
+---
+
+jobs:
+  armada-ansible-scripts:
+    name: armada-ansible-scripts
+    link: https://alchemy-containers-jenkins.swg-devops.com:8443/job/Containers-Runtime/job/armada-ansible-scripts/build?delay=0sec
+  ansible-sensu-uptime-armada-update:
+    name: ansible-sensu-uptime-armada-update
+    link: https://alchemy-conductors-jenkins.swg-devops.com/job/Conductors/job/Conductors-Monitoring/view/ansible-sensu-uptime/job/ansible-sensu-uptime-deploy

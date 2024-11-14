@@ -1,0 +1,46 @@
+title: Armada Docs
+description: A site to host Armada documentation.
+favicon_ico: "/assets/images/argo.png"
+url: "https://pages.github.ibm.com/alchemy-conductors/documentation-pages" # the base hostname & protocol for your site, e.g. http://example.com
+repository: https://github.ibm.com/alchemy-conductors/documentation-pages # for github-metadata
+theme: just-the-docs
+
+nav_external_links:
+  - title: Alchemy Dashboard
+    url: https://alchemy-dashboard.containers.cloud.ibm.com
+    opens_in_new_tab: true
+  - title: Alchemy Dashboard Stage
+    url: https://stage-alchemy-dashboard.containers.test.cloud.ibm.com
+    opens_in_new_tab: true
+  - title: Jenkins Containers Instance
+    url: https://alchemy-containers-jenkins.swg-devops.com/
+    opens_in_new_tab: true
+  - title: Jenkins Conductors Instance
+    url: https://alchemy-conductors-jenkins.swg-devops.com/
+    opens_in_new_tab: true
+  - title: Jenkins Test Instance
+    url: https://alchemy-testing-jenkins.swg-devops.com/
+    opens_in_new_tab: true
+
+heading_anchors: true
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Docs Repo: https://github.ibm.com/alchemy-conductors/documentation-pages
+aux_links_new_tab: true
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page in GitHub Enterprise"
+gh_edit_repository: "https://github.ibm.com/alchemy-conductors/documentation-pages" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "edit"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
